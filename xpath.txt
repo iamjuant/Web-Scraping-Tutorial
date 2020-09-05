@@ -1,0 +1,7 @@
+links = //h2[@class="article-list__article-title"]/a/@href | //h3[@class="article-list__article-title"]/a/@href
+
+links-filtered = //div[@class="article-list__article-text"]/footer/a[contains(.,"Crime")]/../../h3/a/text()
+
+title = //h1[@class="article-title"]/text()
+
+content = //div[@class= "article-content rich-text"]/p/text()
